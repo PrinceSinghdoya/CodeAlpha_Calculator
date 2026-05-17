@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calcify - Modern Calculator Web Application</title>
+  <link rel="shortcut icon" href="https://imgs.search.brave.com/Uy5xuru2Mky39RvI9SgRHhuwE0vpsFztv8wZblZWFhw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS12ZWN0b3Iv/Y2FsY3VsYXRvcl81/Mzg3Ni00MzkwMi5q/cGc_c2VtdD1haXNf/aHlicmlkJnc9NzQw/JnE9ODA">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top-header">
+    <div class="logo">Calcify</div>
+    <div class="social-links">
+        <a href="https://instagram.com/_xprnc/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"></a>
+        <a href="https://linkedin.com/in/princesinghdoya/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a>
+        <a href="https://github.com/princesinghdoya/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub"></a>
+        <a href="https://x.com/princesinghdoya/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968830.png" alt="X"></a>
+    </div>
+
+</header>
+    <div id="heading">
+        <h1>Welcome to My Calculator Application</h1>
+        <p class="watermark">Created by Prince..!!❤️</p>
+    </div>
+
+  <div class="calculator">
+
+    <input type="text" id="display" readonly>
+
+    <div class="buttons">
+
+      <button onclick="clearDisplay()" class="operator">C</button>
+      <button onclick="appendValue('/')" class="operator">÷</button>
+      <button onclick="appendValue('*')" class="operator">×</button>
+      <button onclick="deleteLast()" class="operator">⌫</button>
+
+      <button onclick="appendValue('7')">7</button>
+      <button onclick="appendValue('8')">8</button>
+      <button onclick="appendValue('9')">9</button>
+      <button onclick="appendValue('-')" class="operator">−</button>
+
+      <button onclick="appendValue('4')">4</button>
+      <button onclick="appendValue('5')">5</button>
+      <button onclick="appendValue('6')">6</button>
+      <button onclick="appendValue('+')" class="operator">+</button>
+
+      <button onclick="appendValue('1')">1</button>
+      <button onclick="appendValue('2')">2</button>
+      <button onclick="appendValue('3')">3</button>
+      <button onclick="calculate()" class="equal">=</button>
+
+      <button onclick="appendValue('0')" class="zero">0</button>
+      <button onclick="appendValue('.')">.</button>
+
+    </div>
+  </div>
+  <div class="bottom-navbar">
+    Built with ❤️ by PRince Singhdoya 
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
