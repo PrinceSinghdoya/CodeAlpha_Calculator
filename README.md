@@ -1,2 +1,35 @@
-# CodeAlpha_Calculator
-A modern and fully responsive calculator web application built using HTML, CSS, and Vanilla JavaScript. Supports arithmetic operations, keyboard input, real-time display updates, smooth animations, and a clean premium UI design suitable for beginner frontend projects and internship submissions.
+# Modern Calculator Web Application
+
+A responsive and modern calculator built using HTML, CSS, and Vanilla JavaScript.
+
+## Features
+
+- Addition, subtraction, multiplication, division
+- Keyboard support
+- Clear and delete buttons
+- Responsive design
+- Modern UI with animations
+- Real-time display updates
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+
+## Project Structure
+
+calculator-project/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+
+## Live Demo
+
+Add your GitHub Pages link here.
+
+## Author
+
+Built with ❤️ by PRince
